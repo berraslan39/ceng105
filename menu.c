@@ -45,7 +45,7 @@ int main(){
 	printf("Do you wish to continue? \n");
 	scanf(" %c", &ch_2);
 	while(ch_2 != 'n' && ch_2 != 'y' && ch_2 != 'Y' && ch_2 != 'N'){
-		printf("Do you wish to continue? \n'y' for yes 'n' for no: \n");
+		printf("Do you wish to continue? \n'Y' for yes 'N' for no: \n");
 		scanf(" %c", &ch_2);
 	}
 	}
